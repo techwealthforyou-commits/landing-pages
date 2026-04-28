@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XV6V8PN1J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4XV6V8PN1J');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Coding Tools | TechWealth For You</title>
+  <meta name="description" content="Explore AI coding tools for code generation, debugging, SaaS MVP building, automation scripts, and developer productivity systems." />
+<link rel="stylesheet" href="../assets/shared-styles.css"> 
+ </head>
+<body>
+
+<div id="globalHeader"></div>
+
+<section class="hero">
+  <div class="container">
+    <h1>AI Coding Tools for MVPs, Automation Scripts & SaaS Systems</h1>
+
+    <p class="sub">
+      Explore editorial workflow paths for code generation, debugging,
+      software prototyping, MVP launches, automation scripts,
+      and scalable developer productivity systems.
+    </p>
+
+    <p class="disclosure">
+      This category hub is an independent editorial guide designed to help users
+      explore practical AI coding workflows for building products faster.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="tools-controls">
+      <input
+        type="text"
+        id="searchInput"
+        class="tools-search"
+        placeholder="Search AI coding tools..."
+      />
+
+      <select id="categoryFilter" class="tools-filter">
+        <option value="all">All Categories</option>
+        <option value="frontend">Frontend UI</option>
+        <option value="backend">Backend APIs</option>
+        <option value="fullstack">Full-Stack Apps</option>
+        <option value="automation">Automation Scripts</option>
+        <option value="debugging">Debugging & Fixes</option>
+        <option value="landing">Landing Pages</option>
+        <option value="saas">SaaS MVP</option>
+        <option value="wordpress">WordPress & CMS</option>
+        <option value="chrome">Chrome Extensions</option>
+        <option value="scraping">Web Scraping</option>
+      </select>
+    </div>
+
+    <div id="toolsGrid" class="grid"></div>
+
+    <div class="load-more-wrap">
+      <button id="loadMoreBtn" class="load-more-btn">
+        Load More
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<script id="tools-data-layer">
+const toolsData = [
+  {
+    title: "GitHub Copilot",
+    desc: "Explore AI-assisted coding workflows for autocomplete, debugging, refactoring, documentation, and faster shipping velocity.",
+    slug: "github-copilot",
+    btn: "Explore Workflow",
+    category: "debugging"
+  },
+  {
+    title: "OpenAI Codex",
+    desc: "Explore code generation systems for automation scripts, product prototypes, developer agents, and scalable software workflows.",
+    slug: "openai-codex",
+    btn: "Explore Workflow",
+    category: "automation"
+  },
+  {
+   title: "Lovable",
+   desc: "AI full-stack app builder for MVPs, SaaS prototypes, internal tools, and founder-friendly no-code product launches.",
+   slug: "lovable",
+   btn: "Explore Workflow",
+   category: "saas"
+ }
+];
+</script>
+
+<div id="globalFooter"></div>
+  
+<script src="../assets/global-header.js"></script>
+   <script src="../assets/tracking.js"></script>
+  <script src="../assets/tools-engine.js"></script>
+  <script src="../assets/global-footer.js"></script>
+
+</body>
+</html>
