@@ -1,7 +1,7 @@
 window.DATA = {
 
   hero: {
-    title: "Create Stunning AI Videos from Text in Minutes",
+    title: "Crea Stunning AI Videos from Text in Minutes",
     desc: "Turn scripts, blog posts, or ideas into engaging videos using AI—no editing skills needed.",
     text: "Try Pictory Now",
     link: "https://pictory.ai?ref=techwealthforyou",
