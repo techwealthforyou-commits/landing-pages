@@ -30,7 +30,7 @@ window.DATA = {
       "No editing skills required",
       "Perfect for YouTube, TikTok, and marketing",
       "Create videos in minutes instead of hours"
-    ]
+    ],
     image: "../assets/images/pictory/demo.jpg" // 👈 ẢNH DEMO (optional nhưng nên có)
   },
 
