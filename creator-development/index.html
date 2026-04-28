@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4XV6V8PN1J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} 
+    gtag('js', new Date());
+    gtag('config', 'G-4XV6V8PN1J');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creator & Development Tools | TechWealth For You</title>
+  <meta name="description" content="Discover creator ecosystems, Unity workflows, XR systems, 3D production kits, and scalable development platforms for modern builders." />
+  <link rel="stylesheet" href="../assets/shared-styles.css">
+</head>
+<body>
+  <div id="globalHeader"></div>
+
+  <section class="hero">
+    <div class="container">
+      <h1>🧠 Creator & Development Tools</h1>
+      <p class="sub">
+        Explore intelligent creator ecosystems for game development, XR workflows,
+        3D production pipelines, and scalable development systems.
+      </p>
+      <p class="disclosure">
+        This page is an independent editorial hub built to help creators, developers,
+        and digital builders discover trusted ecosystems, creator assets, and production-ready tools.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="tools-controls">
+        <input type="text" id="searchInput" class="tools-search" placeholder="Search creator and development tools..." />
+
+        <select id="categoryFilter" class="tools-filter">
+          <option value="all">All Development Categories</option>
+          <option value="game-dev">Game Development</option>
+          <option value="xr">XR / Simulation</option>
+          <option value="3d">3D Creator Kits</option>
+          <option value="platform">Platforms</option>
+        </select>
+      </div>
+
+      <div id="toolsGrid" class="grid"></div>
+
+      <div class="load-more-wrap">
+        <button id="loadMoreBtn" class="load-more-btn">Load More</button>
+      </div>
+    </div>
+  </section>
+
+<script id="tools-data-layer">
+const toolsData = [
+  {
+    title: "Unity",
+    desc: "Trusted creator ecosystem for game assets, XR workflows, 3D kits, and production-ready development systems.",
+    slug: "unity",
+    btn: "View Partner Tool",
+    category: "creator-tools"
+  }
+];
+</script>
+
+
+  <div id="globalFooter"></div>
+
+  <script src="../assets/global-header.js"></script>
+   <script src="../assets/tracking.js"></script>
+  <script src="../assets/tools-engine.js"></script>
+  <script src="../assets/global-footer.js"></script>
+</body>
+</html>
