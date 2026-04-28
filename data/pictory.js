@@ -1,53 +1,54 @@
 window.DATA = {
 
   hero: {
-    title: "Turn Long Content into Engaging Videos Automatically",
-    desc: "Create short videos from blog posts, scripts, or URLs using AI in minutes.",
+    title: "Create Stunning AI Videos from Text in Minutes",
+    desc: "Turn scripts, blog posts, or ideas into engaging videos using AI—no editing skills needed.",
     text: "Try Pictory Now",
     link: "https://pictory.ai?ref=techwealthforyou",
     project: "pictory",
-    value: 3
+    value: 3,
+    image: "../assets/images/pictory/hero.jpg"
   },
 
   content1: {
-    title: "Why Video Creation is Hard",
+    title: "Why Video Creation is Difficult",
     items: [
-      "Editing videos takes hours of work",
-      "Requires advanced editing skills",
-      "Expensive tools and software",
-      "Hard to repurpose long content",
-      "Time-consuming content production"
+      "Video editing software is complicated",
+      "Hiring editors is expensive",
+      "Takes hours to produce a single video",
+      "Hard to repurpose written content",
+      "Not scalable for content creators"
     ]
   },
 
   content2: {
-    title: "How Pictory Solves This",
+    title: "How Pictory Makes It Easy",
     items: [
-      "Turn blog posts into videos automatically",
-      "Convert scripts into engaging videos",
+      "Convert text into videos automatically",
       "Auto-generate captions and visuals",
+      "Turn blog posts into engaging videos",
       "No editing skills required",
-      "Perfect for content creators and marketers",
-      "Repurpose content at scale"
+      "Perfect for YouTube, TikTok, and marketing",
+      "Create videos in minutes instead of hours"
     ]
   },
 
   features: {
     title: "What You Can Do with Pictory",
-    desc: "Create high-quality videos without editing experience.",
+    desc: "Create professional videos effortlessly using AI.",
     items: [
-      "🎬 Convert Blog Posts to Videos",
-      "✂️ Auto Summarize Long Content",
-      "📝 Add Captions Automatically",
-      "📢 Create Social Media Videos",
-      "🎥 Turn Scripts into Videos",
-      "⚡ Scale Content Creation Fast"
+      "Text to Video Automation",
+      " AI Scene Selection",
+      "Auto Subtitles & Captions",
+      "Create Marketing Videos",
+      "Repurpose Blog Content",
+      "Fast & Scalable Content Creation"
     ]
   },
 
   midCTA: {
-    title: "⚡ Start Creating Videos in Minutes",
-    desc: "No editing skills needed. Just paste your content.",
+    title: "⚡ Start Creating Videos with AI",
+    desc: "Turn your ideas into high-quality videos instantly.",
     text: "Try Pictory Free",
     link: "https://pictory.ai?ref=techwealthforyou",
     project: "pictory",
@@ -55,8 +56,8 @@ window.DATA = {
   },
 
   cta: {
-    title: "Create Videos Faster with AI",
-    desc: "Turn your ideas, blogs, or scripts into engaging videos instantly.",
+    title: "Create Videos Without Editing Skills",
+    desc: "Use AI to transform your content into engaging videos in minutes.",
     text: "Get Started with Pictory",
     link: "https://pictory.ai?ref=techwealthforyou",
     project: "pictory",
